@@ -1,0 +1,59 @@
+html {
+    background: url("/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #122931;
+    font-weight: bold;
+    font-size:120%;
+}
+#container {
+    margin:0 auto;
+    width: 700px;
+    height:380px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-top:200px;
+    padding:60px 20px 10px 20px;
+}
+#smcontainer {
+    margin:0 auto;
+    width: 700px;
+    height:340px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-top:200px;
+    padding:70px 20px 10px 20px;
+    font-size: 150%;
+}
+#largecontainer {
+    margin:0 auto;
+    width: 700px;
+    height:750px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-top:20px;
+    padding:10px 20px 10px 20px;
+}
+#restart {
+    display: inline-block;
+    margin-left: 20px;
+}
+a {
+    text-decoration: underline;
+    color:#122931;
+}
+input[type=submit] {
+    height:25px;
+    width:75px;
+    font-size: 80%;
+    color:#122931;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    border: none;
+    margin-left:20px;
+}
